@@ -268,7 +268,7 @@ footer .top-footer ul.social li {
 
 footer .top-footer .social li a.facebook:hover svg {
     background-color: #3b5999;
-    transform: translateY(-5%);
+    transform: translateY(-10%);
 
 }
 
@@ -281,24 +281,24 @@ footer .top-footer ul.social li a.instagram:hover svg {
             #dc2743 50%,
             #cc2366 75%,
             #bc1888 100%);
-    transform: translateY(-5%);
+    transform: translateY(-10%);
 
 }
 
 footer .top-footer ul.social li a.google:hover svg {
     background-color: #DD4B39;
-    transform: translateY(-5%);
+    transform: translateY(-10%);
 }
 
 footer .top-footer ul.social li a.twitter:hover svg {
     background-color: #1DA1F2;
-    transform: translateY(-5%);
+    transform: translateY(-10%);
 
 }
 
 footer .top-footer ul.social li a.linkedin:hover svg {
     background-color: #2867B2;
-    transform: translateY(-5%);
+    transform: translateY(-10%);
 
 }
 
@@ -339,6 +339,16 @@ footer .copyright p {
 
 
 }
+
+/**********************************
+***********************************
+***********************************
+**********Tour-page**************
+***********************************
+***********************************/
+
+
+
 
 /**********************************
 ***********************************
