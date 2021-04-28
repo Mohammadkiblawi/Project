@@ -72,6 +72,10 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "css/style.css"
         }),
+        new HtmlWebpackPlugin({
+            filename: "tours.html",
+            template: "./src/tours.html",
+        }),
         new OptimizeCSSAssetsPlugin({}),
     ],
 
