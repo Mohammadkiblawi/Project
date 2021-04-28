@@ -211,6 +211,11 @@ textarea {
     margin: 0 auto 50px;
 }
 
+#contact .form form input,
+textarea {
+    text-align: right;
+}
+
 #contact .form button {
     margin-right: 15px;
 }
@@ -407,6 +412,10 @@ footer .copyright p {
         font-size: 18px;
         margin-right: 0px;
         font-weight: 700;
+    }
+
+    h1.title {
+        font-size: 35px;
     }
 
 }
