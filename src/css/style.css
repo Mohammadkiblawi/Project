@@ -6,6 +6,13 @@ body {
 
 }
 
+.overlay {
+    background-image: url(./../images/turkey9.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
 header {
     background: linear-gradient(to left,
             rgba(255, 169, 241, 0.8) 0%,
@@ -153,7 +160,7 @@ h1.title {
 }
 
 #our-services .media-body p {
-    color: #a3a2a2;
+    color: gray;
     font-size: 15px;
     line-height: 25px;
 }
@@ -401,7 +408,7 @@ footer .copyright p {
     }
 }
 
-@media (min-width:330px) {
+@media (min-width:330px) and (max-width:576px) {
     #contact .map-frame {
         width: 300px !important;
 
