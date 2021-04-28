@@ -76,6 +76,14 @@ module.exports = {
             filename: "tours.html",
             template: "./src/tours.html",
         }),
+        new HtmlWebpackPlugin({
+            filename: "sign_in.html",
+            template: "./src/sign_in.html",
+        }),
+        new HtmlWebpackPlugin({
+            filename: "sign_up.html",
+            template: "./src/sign_up.html",
+        }),
         new OptimizeCSSAssetsPlugin({}),
     ],
 
