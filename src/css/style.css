@@ -10,7 +10,6 @@ body {
     background-image: url(./../images/turkey9.jpg);
     background-size: cover;
     background-position: center center;
-
 }
 
 header {
@@ -353,6 +352,46 @@ footer .copyright p {
 **********Tour-page**************
 ***********************************
 ***********************************/
+#first-tour,
+.second-tour {
+    padding: 100px 0;
+}
+
+.heading {
+    font-weight: 700;
+    color: lightseagreen;
+    border-bottom: 2px solid;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.desc {
+    line-height: 40px;
+    font-size: 20px;
+    color: darkslategrey;
+
+}
+
+#second-tour .list {
+    margin-top: 30px;
+    margin-bottom: 2rem;
+}
+
+#second-tour .list .list-item {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#second-tour .button #btn {
+    margin: 30px 0 40px;
+
+
+}
+
+#second-tour .list .list-item span.beginning-title {
+    color: crimson;
+}
 
 
 
@@ -433,6 +472,22 @@ footer .copyright p {
 
     h1.title {
         font-size: 35px;
+    }
+
+    /* tour-page*/
+    .heading {
+        font-size: 23px;
+    }
+
+    .desc {
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    #second-tour .list .list-item {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 40px;
     }
 
 }

@@ -35,4 +35,26 @@ $(document).ready(function () {
         }, 800);
 
     });
+
+    $("#btn").on("click", function () {
+        read();
+    });
+
+
 });
+
+function read() {
+    var description = document.getElementById("list");
+    var moreText = document.getElementsByClassName("list-item");
+    var btnText = document.getElementById("btn");
+    if (description.style.display === "none") {
+        description.style.display = "block";
+        btnText.innerHTML = "عرض عناصر اقل";
+        moreText.style.display = "none";
+
+    } else {
+        description.style.display = "none";
+        btnText.innerHTML = "عرض المزيد";
+        moreText.style.display = "block";
+    }
+}
