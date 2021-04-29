@@ -1,9 +1,11 @@
 import $ from 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min.js';
 import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css'
-import './css/style.css';
+import './scss/style.scss';
+import './css/custom.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import '@fortawesome/fontawesome-free/js/all.min';
+
 
 $(window).scroll(function () {
     if ($(this).scrollTop() >= 100) {
