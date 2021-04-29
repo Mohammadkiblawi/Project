@@ -426,6 +426,19 @@ footer .copyright p {
 
 }
 
+#sign-up button {
+    margin-left: 20px;
+}
+
+#sign-up a {
+    text-decoration: none;
+    color: white;
+}
+
+#sign-up a:hover {
+    color: silver;
+}
+
 /**********************************
 ***********************************
 ***********************************
