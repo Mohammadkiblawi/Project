@@ -111,25 +111,10 @@ header .btn-custom {
     }
 }
 
-
-
-
-
-
-
-
 nav.navbar.noTransparrent {
     background: linear-gradient(45deg, $black, #febaf3);
 
 }
-
-
-
-/* nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover,
-nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active {
-    color: #dea413;
-    background-color: #16aeca;
-} */
 
 .container p.description {
     padding: 10px;
@@ -145,9 +130,6 @@ h1.title {
     border-bottom: 1px solid $black;
     line-height: 80px;
     color: $black;
-
-
-
 }
 
 .title-icon {
@@ -185,14 +167,9 @@ h1.title {
     }
 }
 
-
-
-
-
 #our-services .media .icon {
     color: #2196f3
 }
-
 
 #tours {
     padding: 100px 0;
@@ -214,9 +191,6 @@ h1.title {
 
     }
 }
-
-
-
 
 #contact {
     padding: 100px 0;
@@ -358,8 +332,6 @@ footer .top-footer ul.contact-us li {
 
 }
 
-
-
 footer .copyright {
     background-color: #111111;
 
@@ -375,13 +347,10 @@ footer .copyright {
 
 }
 
-
-/**********************************
-***********************************
-***********************************
-**********Tour-pages**************
-***********************************
-***********************************/
+/********************************
+**********Tour-pages*************
+*********************************
+*********************************/
 #first-tour,
 .second-tour {
     padding: 100px 0;
@@ -417,7 +386,6 @@ footer .copyright {
 #second-tour .button #btn {
     margin: 30px 0 40px;
 
-
 }
 
 #second-tour .list .list-item span.beginning-title {
@@ -429,7 +397,6 @@ footer .copyright {
     margin: auto;
 }
 
-
 /*Tour-1*/
 .tour1 {
     @include background-color($lightcyan);
@@ -440,14 +407,10 @@ footer .copyright {
     @include background-color($lightyellow);
 }
 
-/**********************************
-***********************************
-***********************************
+/*********************************
 **********Sign-in**************
 ***********************************
 ***********************************/
-
-
 
 body.sign-in {
     font-family: 'Montserrat', sans-serif;
@@ -652,10 +615,7 @@ select:focus {
     }
 
     form.form-sign-in input {
-
         width: 100%;
-
-
     }
 
     .drop-1 {
@@ -734,19 +694,7 @@ select:focus {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-/**********************************
-***********************************
-***********************************
+/*********************************
 **********Sign-up**************
 ***********************************
 ***********************************/
@@ -788,10 +736,7 @@ select:focus {
     }
 }
 
-
-
 /**********************************
-***********************************
 ***********************************
 **********Media Query**************
 ***********************************
@@ -925,7 +870,5 @@ select:focus {
         margin: auto;
         padding: 0;
     }
-
-    /*sign-in*/
 
 }
