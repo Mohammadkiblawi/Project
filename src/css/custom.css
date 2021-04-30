@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 body {
   margin-top: 137px;
   font-family: "Cairo";
@@ -48,6 +49,16 @@ header .btn-custom:hover, header .btn-custom:focus, header .btn-custom:active, h
   color: white;
 }
 
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: 50%/100% 100% no-repeat;
+  color: white;
+}
+
 .navbar ul.navbar-nav {
   margin: auto;
 }
@@ -92,6 +103,7 @@ h1.title {
   margin-bottom: 30px;
   border-bottom: 1px solid black;
   line-height: 80px;
+  color: black;
 }
 
 .title-icon {
@@ -132,7 +144,7 @@ h1.title {
 }
 
 #tours .container .card .card-body h5.card-title {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 700;
   color: cornflowerblue;
 }
@@ -183,7 +195,7 @@ textarea {
 footer .top-footer {
   background-color: #171717;
   padding: 75px 0;
-  text-align: left;
+  text-align: right;
 }
 footer .top-footer h3 {
   font-size: 18px;
@@ -268,7 +280,7 @@ footer .copyright p {
 /**********************************
 ***********************************
 ***********************************
-**********Tour-page**************
+**********Tour-pages**************
 ***********************************
 ***********************************/
 #first-tour,
@@ -308,6 +320,292 @@ footer .copyright p {
   color: crimson;
 }
 
+.carousel {
+  width: 70%;
+  margin: auto;
+}
+
+/*Tour-1*/
+.tour1 {
+  background: lightcyan;
+}
+
+/*Tour-2*/
+.tour2 {
+  background: lightyellow;
+}
+
+/**********************************
+***********************************
+***********************************
+**********Sign-in**************
+***********************************
+***********************************/
+body.sign-in {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, #3f5efb, #fc466b);
+}
+
+.container-sign-in {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+form.form-sign-in {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 3em;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  text-align: right;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 500px;
+  height: 500px;
+  right: 250px;
+}
+
+form.form-sign-in p {
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form.form-sign-in a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+form.form-sign-in a:hover {
+  text-shadow: 2px 2px 6px #00000040;
+}
+
+form.form-sign-in a:active {
+  text-shadow: none;
+}
+
+form.form-sign-in input {
+  background: transparent;
+  width: 375px;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5000px;
+}
+
+form.form-sign-in input:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+}
+
+form.form-sign-in input[type=email]:focus,
+form.form-sign-in input[type=password]:focus {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+}
+
+form.form-sign-in input[type=button] {
+  margin-top: 10px;
+  width: 150px;
+  font-size: 1rem;
+}
+
+form.form-sign-in input[type=email],
+form.form-sign-in input[type=password] {
+  text-align: right;
+}
+
+form.form-sign-in input[type=button]:hover {
+  cursor: pointer;
+}
+
+form.form-sign-in:hover {
+  margin: 4px;
+}
+
+.container-sign-in ::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container-sign-in ::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container-sign-in a,
+input:focus,
+button:focus,
+select:focus {
+  outline: none;
+}
+
+.drop {
+  background: rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.drop-1 {
+  height: 80px;
+  width: 80px;
+  top: -20px;
+  left: 345px;
+  z-index: -1;
+}
+
+.drop-2 {
+  height: 80px;
+  width: 80px;
+  bottom: -30px;
+  right: 220px;
+}
+
+.drop-3 {
+  height: 100px;
+  width: 100px;
+  bottom: 120px;
+  right: 220px;
+  z-index: -1;
+}
+
+.drop-4 {
+  height: 120px;
+  width: 120px;
+  top: -60px;
+  right: 220px;
+}
+
+.drop-5 {
+  height: 60px;
+  width: 60px;
+  bottom: 170px;
+  left: 530px;
+  z-index: -1;
+}
+
+@media (min-width: 335px) and (max-width: 992px) {
+  form.form-sign-in {
+    padding: 3em;
+    height: 475px;
+    top: 25px;
+    right: 0;
+    width: 100%;
+  }
+
+  form.form-sign-in a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 13px;
+    margin-right: 20px;
+  }
+
+  form.form-sign-in input {
+    width: 100%;
+  }
+
+  .drop-1 {
+    height: 80px;
+    width: 80px;
+    top: 0px;
+    left: 5px;
+    z-index: -1;
+  }
+
+  .drop-2 {
+    height: 50px;
+    width: 50px;
+    bottom: -38px;
+    right: 5px;
+  }
+
+  .drop-3 {
+    display: none;
+  }
+
+  .drop-4 {
+    height: 50px;
+    width: 50px;
+    top: 0px;
+    right: 5px;
+  }
+
+  .drop-5 {
+    display: none;
+  }
+}
+@media (min-width: 993px) and (max-width: 1251px) {
+  form.form-sign-in {
+    width: 500px;
+    height: 500px;
+    right: 250px;
+  }
+
+  .drop-1 {
+    height: 80px;
+    width: 80px;
+    top: -20px;
+    left: 345px;
+    z-index: -1;
+  }
+
+  .drop-2 {
+    height: 80px;
+    width: 80px;
+    bottom: -6px;
+    right: 220px;
+  }
+
+  .drop-3 {
+    height: 100px;
+    width: 100px;
+    bottom: 215px;
+    right: 220px;
+    z-index: -1;
+  }
+
+  .drop-4 {
+    height: 80px;
+    width: 80px;
+    top: -20px;
+    right: 220px;
+  }
+}
 /**********************************
 ***********************************
 ***********************************
@@ -321,7 +619,7 @@ footer .copyright p {
 .heading2 {
   border-bottom: 2px solid;
   color: white;
-  margin: 0 auto 50px;
+  margin: 50px auto;
 }
 
 #sign-up {
@@ -373,10 +671,25 @@ footer .copyright p {
   #contact .cmxform {
     width: 100%;
   }
+
+  .navbar {
+    background: linear-gradient(45deg, black, #febaf3);
+  }
+
+  .carousel {
+    width: 90%;
+    margin: auto;
+  }
+
+  /*sign-in*/
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #contact .map-frame {
     width: 360px !important;
+  }
+
+  .navbar {
+    background: linear-gradient(45deg, black, #febaf3);
   }
 }
 @media (max-width: 767px) {
@@ -387,6 +700,17 @@ footer .copyright p {
   #tours .container .card {
     margin-bottom: 45px;
   }
+
+  .navbar {
+    background: linear-gradient(45deg, black, #febaf3);
+  }
+
+  .carousel {
+    width: 90%;
+    margin: auto;
+  }
+
+  /*sign-in*/
 }
 @media (min-width: 330px) and (max-width: 576px) {
   #contact .map-frame {
@@ -413,6 +737,10 @@ footer .copyright p {
     font-size: 35px;
   }
 
+  .navbar {
+    background: linear-gradient(45deg, black, #febaf3);
+  }
+
   /* tour-page*/
   .heading {
     font-size: 23px;
@@ -429,12 +757,19 @@ footer .copyright p {
     line-height: 40px;
   }
 
+  .carousel {
+    width: 90%;
+    margin: auto;
+  }
+
   /* sign-up*/
   #sign-up {
     width: 90%;
     margin: auto;
     padding: 0;
   }
+
+  /*sign-in*/
 }
 
 /*# sourceMappingURL=custom.css.map */

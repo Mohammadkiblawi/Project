@@ -73,8 +73,12 @@ module.exports = {
             filename: "css/style.css"
         }),
         new HtmlWebpackPlugin({
-            filename: "tours.html",
-            template: "./src/tours.html",
+            filename: "tour1.html",
+            template: "./src/tour1.html",
+        }),
+        new HtmlWebpackPlugin({
+            filename: "tour2.html",
+            template: "./src/tour2.html",
         }),
         new HtmlWebpackPlugin({
             filename: "sign_in.html",
