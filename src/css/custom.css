@@ -572,8 +572,12 @@ select:focus {
 @media (min-width: 993px) and (max-width: 1251px) {
   form.form-sign-in {
     width: 500px;
-    height: 500px;
+    height: 470px;
     right: 250px;
+  }
+
+  .container-sign-in {
+    top: 67%;
   }
 
   .drop-1 {
@@ -582,6 +586,7 @@ select:focus {
     top: -20px;
     left: 345px;
     z-index: -1;
+    display: none;
   }
 
   .drop-2 {
